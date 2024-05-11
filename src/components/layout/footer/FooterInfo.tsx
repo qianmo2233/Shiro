@@ -146,6 +146,16 @@ const PoweredBy: Component = ({ className }) => {
   )
 }
 
+const Beian: Component = ({ className }) => {
+  return (
+    <span className={className}>
+      <StyledLink href="https://beian.mps.gov.cn/#/query/webSearch?code=35018102240009" target="_blank">
+        闽公网安备35018102240009号
+      </StyledLink>
+    </span>
+  )
+}
+
 // type VisitorGeolocation = {
 //   country: string
 //   city?: string
@@ -205,7 +215,7 @@ const FooterBottom = async () => {
         </span>
       </p>
       <div>
-        <PoweredBy className="my-3 block md:my-0 md:inline" />
+        <Beian className="my-3 block md:my-0 md:inline" />
         {icp && (
           <>
             <Divider className="hidden md:inline" />
