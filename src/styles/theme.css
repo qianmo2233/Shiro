@@ -43,3 +43,7 @@ html[data-theme='dark'] .shiki span {
   font-weight: var(--shiki-dark-font-weight) !important;
   text-decoration: var(--shiki-dark-text-decoration) !important;
 }
+
+#hero {
+  background: url(https://blog-api.meow0.fun/api/v2/objects/file/21e5g2fa76gtfk0edz.png) center no-repeat;
+}
